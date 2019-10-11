@@ -1,16 +1,16 @@
 <div class="productlist container-fluid">
 <h2>Products</h2>
   <div class="row">
-    <div class="col-sm" *ngFor="let product of products; index as productId">
+    <div class="col" *ngFor="let product of products; index as productId">
      <div class="productitem">
     <h3><a [title]="product.name + ' details'" [routerLink]="['/products', productId]">{{ product.name }} </a></h3>
      <p *ngIf="product.origin">Origin: {{ product.origin }}</p>
      <div class="productdescription">
      <p *ngIf="product.description">Description: {{ product.description }} </p>
     </div>
-     <img src={{product.image}} alt="-" style="width:auto;height:60px;"> 
+     <img src={{product.image}} alt="-" style="width:auto;height:80px;"> 
      <br>
-     <button (click)="share()">Share</button>
+     <button style="float: right;" (click)="share()">Share</button>
      <app-product-alerts
      [product]="product"
      (notify)="onNotify()">
