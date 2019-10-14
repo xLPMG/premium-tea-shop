@@ -4,35 +4,35 @@ export const products = [
     price: 10,
     origin: 'China',
     description: 'Plain black tea',
-    image: 'assets/black-tea.png'
+    image: 'https://raw.githubusercontent.com/xLPMG/premium-tea-shop/master/src/assets/black-tea.png'
   },
   {
     name: 'Green Tea',
     price: 12,
     origin: 'China',
     description: 'Plain green tea',
-    image: 'assets/green-tea.png'
+    image: 'https://raw.githubusercontent.com/xLPMG/premium-tea-shop/master/src/assets/green-tea.png'
   },
   {
     name: 'English Breakfast',
     price: 30,
     origin: 'England',
-    description: 'English breakfast tea is a traditional blend of teas originating from Assam, Ceylon, and Kenya.',
-    image: 'assets/english-breakfast-tea.png'
+    description: 'A traditional blend of teas originating from Assam, Ceylon, and Kenya.',
+    image: 'https://raw.githubusercontent.com/xLPMG/premium-tea-shop/master/src/assets/english-breakfast-tea.png'
   },
   {
     name: 'Masala Chai',
     price: 30,
     origin: 'India',
     description: 'Black tea with a mixture of aromatic spices and herbs',
-    image: 'assets/masala-chai-tea.png'
+    image: 'https://raw.githubusercontent.com/xLPMG/premium-tea-shop/master/src/assets/masala-chai-tea.png'
   },
   {
     name: 'Nilgiri',
     price: 35,
     origin: 'India',
     description: 'A dark, intensely aromatic, fragrant and flavoured tea',
-    image: 'assets/nilgiri-tea.png'
+    image: 'https://raw.githubusercontent.com/xLPMG/premium-tea-shop/master/src/assets/nilgiri-tea.png'
   },
   {
     name: 'Different Tea',
