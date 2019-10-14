@@ -39,14 +39,14 @@ export const products = [
     price: 44,
     origin: 'Different country',
     description: 'tastes differently.',
-    image: 'http://www.pngnames.com/files/4/Black-Tea-Png-Background.png'
+    image: 'https://raw.githubusercontent.com/xLPMG/premium-tea-shop/master/src/assets/black-tea.png'
   },
   {
     name: 'Expensive Tea',
     price: 99,
     origin: 'Heaven',
     description: 'Just expensive tea',
-    image: 'http://www.pngnames.com/files/4/Black-Tea-Png-Background.png'
+    image: 'https://raw.githubusercontent.com/xLPMG/premium-tea-shop/master/src/assets/black-tea.png'
   }
 ];
 
