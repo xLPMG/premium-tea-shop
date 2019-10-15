@@ -22,7 +22,7 @@ body {
   height:100%;
   min-height: 100vh;
 
-  background-image: url("assets/background2-small.jpg");
+  background-image: url("https://raw.githubusercontent.com/xLPMG/premium-tea-shop/master/src/assets/background2-small.jpg");
   background-color: #cccccc;
   background-size: cover;
 }
