@@ -1,3 +1,4 @@
-# premium-tea-shop
+# Premium Tea Shop
 
-Made with Stackblitz!
+Angular test shop hosted by Stackblitz!
+Made with TypeScript and Node.js
