@@ -10,11 +10,13 @@
     </div>
      <img src={{product.image}} alt="-" style="width:auto;height:80px;"> 
      <br>
+     <div class="productbuttons">
      <button style="float: right;" (click)="share()">Share</button>
      <app-product-alerts
      [product]="product"
      (notify)="onNotify()">
      </app-product-alerts>
+    </div>
     </div>
    </div>
   </div>

@@ -18,6 +18,13 @@ body {
   margin-left: 0;
   margin-right: 20vw;
   max-width: 100%;
+
+  height:100%;
+  min-height: 100vh;
+
+  background-image: url("assets/background2-small.jpg");
+  background-color: #cccccc;
+  background-size: cover;
 }
 
 router-outlet + *  {
@@ -36,16 +43,6 @@ h2 {
 
 h1, h2 {
   font-weight: lighter;
-}
-
-.productlist h1 {
-  text-align: center;
-}
-.productdetails h1 {
-  text-align: center;
-}
-.productdetails h3 {
-  color: black;
 }
 
 p {
@@ -157,12 +154,14 @@ app-top-bar h1 {
   color: black;
 }
 .productitem {
-  width:15vw;
+  width:100%;
   min-width: 225px;
-  height:15vw;
+  max-width: 20vw;
+  height:15vw; /*15vw */
   min-height: 315px;
   margin: 10px;
   padding: 10px;
+
   background-color: #f2f2f2;
   border-style: solid;
   border-color: #272727;
@@ -173,11 +172,38 @@ height:75px;
 overflow: hidden;
 }
 
+/* Shipping */
+.shippingcontainer {
+  margin-top:10px;
+  background-color: #f2f2f2;
+  border-style: solid;
+  border-color: #272727;
+}
+/* Cart */
+.cartcontainer {
+  background-color: #f2f2f2;
+  border-style: solid;
+  border-color: #272727;
+  padding: 10px;
+  padding-right: 50px;
+}
 /* product details page */
-.productdetails {
-  width: 100vw;
+.productdetailscontainer {
+  background-color: #f2f2f2;
+  border-style: solid;
+  border-color: #272727;
+  padding: 10px;
+  min-height: 35px;
 }
 
+.productdetailscontainer h3 {
+  color: black;
+}
+
+.productbuttons {
+  position:relative;
+  bottom: 0;
+}
 /*
 Copyright Google LLC. All Rights Reserved.
 Use of this source code is governed by an MIT-style license that

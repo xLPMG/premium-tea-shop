@@ -8,14 +8,14 @@ export const products = [
   },
   {
     name: 'Green Tea',
-    price: 12,
+    price: 10,
     origin: 'China',
     description: 'Plain green tea',
     image: 'https://raw.githubusercontent.com/xLPMG/premium-tea-shop/master/src/assets/green-tea.png'
   },
   {
     name: 'English Breakfast',
-    price: 30,
+    price: 16,
     origin: 'England',
     description: 'A traditional blend of teas originating from Assam, Ceylon, and Kenya.',
     image: 'https://raw.githubusercontent.com/xLPMG/premium-tea-shop/master/src/assets/english-breakfast-tea.png'
